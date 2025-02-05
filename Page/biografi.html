@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Boxes</title>
+    <style>
+        body {
+            background-image: url(../image/Background\ color.jpeg);
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: #333;
+            width: 100%;
+            height: 30px;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            height: 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        /* Profile Box Styles */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .profile-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-box h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .profile-box p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .profile-box .info {
+            margin: 15px 0;
+            text-align: left;
+        }
+
+        .profile-box .info div {
+            margin: 10px 0;
+        }
+
+        .profile-box .info div span {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .profile-box .social-media a {
+            display: inline-block;
+            margin: 0 5px;
+            color: #0073e6;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .profile-box .social-media a:hover {
+            color: #005bb5;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background: #193f66;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+            box-shadow: 0px 0px 5px rgb(38, 69, 87);
+        }
+
+        .image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+
+    <div class="container">
+        <div class="profile-box">
+            <h2>Derri Dikrillah</h2>
+            <div class="info">
+                <div class="image-container">
+                    <img src="../qrcode.png" alt="QR Code">
+                </div>
+            </div>
+            <a href="Derri.html" class="btn">About</a>
+        </div>
+
+        <div class="profile-box">
+            <h2>Teguh Permana</h2>
+            <div class="info">
+                <div class="image-container">
+                    <img src="../qrcode.png" alt="QR Code">
+                </div>
+            </div>
+            <a href="Teguh.html" class="btn">About</a>
+        </div>
+
+        <div class="profile-box">
+            <h2>Abdul Rahmat</h2>
+            <div class="info">
+                <div class="image-container">
+                    <img src="../qrcode.png" alt="QR Code">
+                </div>
+            </div>
+            <a href="Abdul.html" class="btn">About</a>
+        </div>
+
+        <div class="profile-box">
+            <h2>Abian Mahatva</h2>
+            <div class="info">
+                <div class="image-container">
+                    <img src="../qrcode.png" alt="QR Code">
+                </div>
+            </div>
+            <a href="Abian.html" class="btn">About</a>
+        </div>
+
+        <div class="profile-box">
+            <h2>Galeh Bekti</h2>
+            <div class="info">
+                <div class="image-container">
+                    <img src="../qrcode.png" alt="QR Code">
+                </div>
+            </div>
+            <a href="Galeh.html" class="btn">About</a>
+        </div>
+
+        <div class="profile-box">
+            <h2>Egy Malgiansyah</h2>
+            <div class="info">
+                <div class="image-container">
+                    <img src="../qrcode.png" alt="QR Code">
+                </div>
+            </div>
+            <a href="Egy.html" class="btn">About</a>
+        </div>
